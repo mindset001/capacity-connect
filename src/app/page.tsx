@@ -12,9 +12,10 @@ export default function Home() {
      <div className="w-80%">
       {/* <Header/> */}
       <Hero/>
+      
       <Expertise/>
       <About/>
-      {/* <Values/> */}
+      <Values/>
       <Staff/>
       <Footer/>
      </div>
