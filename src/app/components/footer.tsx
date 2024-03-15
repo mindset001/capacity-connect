@@ -15,11 +15,11 @@ function Footer() {
         setYear(new Date().getFullYear());
     }, []);
     return (
-        <main className='bg-[#0E1729] px-10 mt-10 border-2'>
+        <main className='bg-black px-10 mt-10'>
             <div className='flex flex-col md:flex-row justify-between items-center mb-4'>
                 <div>
                     {/* <Image src={Logo} alt='' /> */}
-                    <h3 className='text-black'>Capacity Connect Ltd</h3>
+                    <h1>Capacity Connect</h1>
                 </div>
                 <div className='flex flex-col md:flex-row items-center gap-2'>
                     <p className='text-[18px] text-white'>Follow Us On Social Media</p>
@@ -34,7 +34,7 @@ function Footer() {
                 </div>
             </div>
 
-            {/* <div className='border-t border-[#808080] flex flex-col md:flex-row'>
+            {/* <div className='border-t border-[#808080] flex flex-col md:flex-row text-white'>
                 <div className='mr-10'>
                     <div>
                         <h2 className='mt-4 text-[16px] font-[600]'>Home</h2>
@@ -104,8 +104,8 @@ function Footer() {
             </div> */}
 
             <div className='border-t border-[#808080] my-4 py-4 flex flex-col md:flex-row justify-between'>
-                <p className=' text-[#808080] font-[400] text-[14px]'>Powered By <span className='text-black'>Capacity Connect Ltd</span> © <span>{`${year} All Rights reserved.`}</span> </p>
-              
+                <p className=' text-[#808080] font-[400] text-[14px]'>Powered By <span className='text-white'>Capacity Connect</span> © <span>{`${year} All Rights reserved.`}</span> </p>
+                {/* <p className='text-[#808080]'>Version 2.0</p> */}
                 <div>
                     <ul className='flex flex-col md:flex-row gap-4 text-[#808080] font-[400] text-[14px]'>
                         <li>Privacy Policy</li>

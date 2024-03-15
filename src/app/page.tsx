@@ -14,7 +14,7 @@ export default function Home() {
       <Hero/>
       <Expertise/>
       <About/>
-      <Values/>
+      {/* <Values/> */}
       <Staff/>
       <Footer/>
      </div>
