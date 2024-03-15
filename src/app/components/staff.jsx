@@ -113,11 +113,11 @@ const content = [
 ];
 export function Staff() {
   return (
-    <div className="p-10 flex flex-col items-center">
-          <div className="my-10">
-            <h1 className="text-align text-black text-2xl font-bold my-10">Our Team</h1>
+    <div className="bg-[#0E1729] flex flex-col items-center">
+          <div className="mt-5">
+            <h1 className="text-align text-white text-4xl font-bold">Our Team</h1>
         </div>
-      <div className="w-full mt-10">
+      <div className="w-[80%] mt-10">
       <StickyScroll content={content} />
       </div>
     </div>

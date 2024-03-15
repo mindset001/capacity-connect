@@ -15,7 +15,7 @@ function Footer() {
         setYear(new Date().getFullYear());
     }, []);
     return (
-        <main className='px-10 mt-10 border-2'>
+        <main className='bg-[#0E1729] px-10 mt-10 border-2'>
             <div className='flex flex-col md:flex-row justify-between items-center mb-4'>
                 <div>
                     {/* <Image src={Logo} alt='' /> */}
