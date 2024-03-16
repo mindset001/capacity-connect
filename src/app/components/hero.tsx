@@ -44,7 +44,7 @@ export function Hero() {
         </div>
       </h1>
       <p className="text-center mt-2 text-neutral-300 relative z-20 text-[14px] md:text-[20px]">
-      We envisioned a world where communities everywhere are healthy, happy, and prosperous.
+      Enhancing Capacity and Fostering Connections for Sustainable Development  
       </p>
     </div>
   );
