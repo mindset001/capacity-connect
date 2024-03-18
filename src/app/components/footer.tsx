@@ -1,7 +1,7 @@
 'use client'
 
 import React, { useEffect, useState } from 'react'
-// import Logo from '../../../../public/images/Logo.png'
+import Logo from '../../../public/images/logo.png'
 import Twitter from '../../../public/images/twitter.png'
 import Linkedln from '../../../public/images/linkedln.png'
 import Instagram from '../../../public/images/instagram.png'
@@ -18,8 +18,8 @@ function Footer() {
         <main className='bg-black px-10 mt-10'>
             <div className='flex flex-col md:flex-row justify-between items-center mb-4'>
                 <div>
-                    {/* <Image src={Logo} alt='' /> */}
-                    <h1>Capacity Connect</h1>
+                    <Image src={Logo} alt='' />
+                    {/* <h1>Capacity Connect</h1> */}
                 </div>
                 <div className='flex flex-col md:flex-row items-center gap-2'>
                     <p className='text-[18px] text-white'>Follow Us On Social Media</p>
@@ -108,9 +108,11 @@ function Footer() {
                 {/* <p className='text-[#808080]'>Version 2.0</p> */}
                 <div>
                     <ul className='flex flex-col md:flex-row gap-4 text-[#808080] font-[400] text-[14px]'>
-                        <li>Privacy Policy</li>
-                        <li>Terms & Conditions</li>
-                        <li>Cookie Policy</li>
+                        <li><span className='text-white'>Office Address: </span>Suite B4, 72-Hub 
+No. 72 Yakubu Gowon Crescent,
+Asokoro- Abuja</li>
+                        {/* <li>Terms & Conditions</li>
+                        <li>Cookie Policy</li> */}
                     </ul>
                 </div>
             </div>

@@ -1,6 +1,6 @@
 'use client'
 import React, { useState } from 'react'
-// import Logo from '../../../../public/images/Logo.png'
+import Logo from '../../../public/images/logo.png'
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -19,8 +19,8 @@ function Header() {
     return (
         <main className=''>
             <div className="bg-[#0F162A] flex items-center w-full justify-between p-4">
-                {/* <Image src={Logo} alt='' /> */}
-                <h1>Capacity Connect</h1>
+                <Image src={Logo} alt='' className=''/>
+                {/* <h1>Capacity Connect</h1> */}
                 <div className='hidden md:block'>
                     <ul className='flex flex-row text-[14px] text-white  font-[400] px-4 gap-3'>
                         {Navcontent.map((item, i: number) => (

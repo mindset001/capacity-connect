@@ -6,6 +6,9 @@ import Jummy from "../../../public/images/jummy.png"
 import Amina from "../../../public/images/aminach.png"
 import Mai from "../../../public/images/mai.png"
 import Ku from "../../../public/images/ku.png"
+import Fati from "../../../public/images/fati.png"
+import Mike from "../../../public/images/mike.png"
+import Jega from "../../../public/images/jega.png"
 
 const content = [
   {
@@ -61,13 +64,19 @@ const content = [
     ),
   },
   {
-    name: 'Amina Baba Manu-Gidado',
-    title: "Member Board of Directors",
+    name: 'Mohammad Farouk Jega',
+    title: "Member Board of Directors, Senior Program Director",
     description:
-      "With over 2 decades of experience in the development sector, Amina is skilled in community development, organizational development and management, grants management, gender and social norms exploration, program development and management, strategy development, gender mainstreaming and management, capacity development, policy, and advocacy. She is currently an independent consultant to several local and international development organizations. Previously she had held managerial and leadership roles at ActionAid Nigeria.",
+      "Farouk is an obstetrics and gynecologist and project management expert with over 2 decades of clinical, managerial and leadership roles in the health and development sector. He had served as Country Director of Pathfinder International for Nigeria and Ghana from 2012 to 2020 and Senior Program Director/Regional Director from 2020 to 2022. He holds a medical degree from the University of Jos and a Master of Public Health from Liverpool School of Tropical Medicine.",
     content: (
-      <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
-        Amina Baba Manu-Gidado
+      <div className="h-full w-full  flex items-center justify-center text-white">
+        <Image
+          src={Jega}
+          width={300}
+          height={300}
+          className="h-full w-full object-cover"
+          alt="linear board demo"
+        />
       </div>
     ),
   },
@@ -77,8 +86,14 @@ const content = [
     description:
       "Farouk is an obstetrics and gynecologist and project management expert with over 2 decades of clinical, managerial and leadership roles in the health and development sector. He had served as Country Director of Pathfinder International for Nigeria and Ghana from 2012 to 2020 and Senior Program Director/Regional Director from 2020 to 2022. He holds a medical degree from the University of Jos and a Master of Public Health from Liverpool School of Tropical Medicine.",
     content: (
-      <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
-        Fatima Jika
+      <div className="h-full w-full  flex items-center justify-center text-white">
+        <Image
+          src={Fati}
+          width={300}
+          height={300}
+          className="h-full w-full object-cover"
+          alt="linear board demo"
+        />
       </div>
     ),
   },
@@ -88,8 +103,14 @@ const content = [
     description:
       "A notable figure in the development sector in Nigeria and beyond with over 4 decades of leadership roles in the non-profit, global health and development sector. Mike was Country Director for Pathfinder International for close 2 decades. He also successfully led the PATH II project at the Project Director. More recently, he was the Country Director and Chief of Party for the Chemonics led Global Supply Chain project here in Nigeria. Mike currently mentors and coaches’ development leaders and organizations in the sub-region and globally. He holds a Master of Public Health from the Harvard University, School of public health. He is a recipient of various national and global awards including the prestigious alumni award of the Harvard School of Public Health and US president’s Volunteer Service Award.",
     content: (
-      <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
-        Mike Egboh
+      <div className="h-full w-full  flex items-center justify-center text-white">
+        <Image
+          src={Mike}
+          width={300}
+          height={300}
+          className="h-full w-full object-cover"
+          alt="linear board demo"
+        />
       </div>
     ),
   },
