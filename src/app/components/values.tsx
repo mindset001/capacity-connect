@@ -18,7 +18,7 @@ export function Values() {
           <div key={i} className="item ml-2" data-value="1">
             <div className="w-[345px] px-4 rounded-lg h-[40vh] bg-[#0E1729] text-white flex flex-col items-center justify-center">
             <h1 className="text-3xl mb-4 font-bold">{item.name}</h1>
-            <p>{item.quote}</p>
+            <p className="text-center">{item.quote}</p>
             </div>
           </div>
         ))}

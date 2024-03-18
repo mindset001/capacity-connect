@@ -13,7 +13,9 @@ export default function Home() {
     <main className="bg-white w-full flex flex-col justify-center items-center overflow-x-hidden">
       <Floating/>
      <div className="w-80%">
+      <div className="block md:hidden">
       <Header/>
+      </div>
       <Hero/>
       
       <Expertise/>
