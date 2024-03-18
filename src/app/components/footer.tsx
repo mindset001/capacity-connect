@@ -1,7 +1,7 @@
 'use client'
 
 import React, { useEffect, useState } from 'react'
-import Logo from '../../../public/images/logo.png'
+import Logo from '../../../public/images/Frame 126.png'
 import Twitter from '../../../public/images/twitter.png'
 import Linkedln from '../../../public/images/linkedln.png'
 import Instagram from '../../../public/images/instagram.png'
