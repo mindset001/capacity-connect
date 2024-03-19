@@ -32,7 +32,7 @@ export const projects = [
     
   },
   {
-    title: "Tools and Manuals Development and Adaptation",
+    title: "Development Of Tools And Manuals",
     description:
       "We bring expertise to help organizations and communities develop and adapt tools and resources using participatory methodologies.",
   
@@ -55,12 +55,12 @@ export const projects = [
       "We connect organizations with likeminded stakeholders and foster synergistic relationships building on our deep global regional and national networks and connections and our multi-decade experience in fostering such partnerships and managing grants.",
 
   },
-  {
-    title: "Leadership Development",
-    description:
-      "We help organization and leaders to enhance their capacity to scan and respond to challenges and opportunities, mobilize, and align their teams and stakeholders to a shared purpose and drive lasting, inclusive change.",
+  // {
+  //   title: "Values-based Leadership Development",
+  //   description:
+  //     "We help organization and leaders to enhance their capacity to scan and respond to challenges and opportunities, mobilize, and align their teams and stakeholders to a shared purpose and drive lasting, inclusive change.",
   
-  },
+  // },
   {
     title: "Values-based Leadership Development",
     description:
