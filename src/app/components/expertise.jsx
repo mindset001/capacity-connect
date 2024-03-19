@@ -40,7 +40,7 @@ export const projects = [
   {
     title: "Organizational Capacity Development",
     description:
-      "We facilitate organizations to assess, develop and implement organizational capacity strengthening initiatives using diverse and multiple approaches including training, coaching, embedded or short-term technical assistance and peer to peer and learning exchange activities.",
+      "We facilitate organizations to assess, develop and implement organizational capacity strengthening initiatives, using diverse and multiple approaches.",
 
   },
   {
