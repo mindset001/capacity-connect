@@ -16,7 +16,7 @@ export const projects = [
   {
     title: "Program Management",
     description:
-      "Enable institutions and communities to ensure projects are implemented on time, within the scope and budget, meet quality standards, foster learning and growth and achieve maximum impact. Our support organization in all phases of the project life cycle.",
+      "We enable institutions and communities to implement development and humanitarian projects. We ensure timely delivery, within scope, budget, and quality standards while fostering learning and growth and achieving maximum impact. We support organizations in all phases of the project life cycle.",
   
   },
   {
@@ -44,9 +44,9 @@ export const projects = [
 
   },
   {
-    title: "Health Systems Strengthenin",
+    title: "Health Systems Strengthening",
     description:
-      "We bring deep local knowledge of health systems and global best practices to support the development, implementation and evaluation of health systems strengthening interventions across the domains of leadership, management and governance, service delivery including primary health care, human resources for health, financing and health management information and data systems.",
+      "We bring extensive local knowledge of health systems and global best practices to support the development, implementation and evaluation of health systems strengthening interventions across the domains of leadership, management, and governance, service delivery, human resources for health, health financing and health management information and data systems.",
   
   },
   {
@@ -59,6 +59,12 @@ export const projects = [
     title: "Leadership Development",
     description:
       "We help organization and leaders to enhance their capacity to scan and respond to challenges and opportunities, mobilize, and align their teams and stakeholders to a shared purpose and drive lasting, inclusive change.",
+  
+  },
+  {
+    title: "Values-based Leadership Development",
+    description:
+      "We help organizations and leaders to enhance their capacity to scan and respond to challenges and opportunities. We help them mobilize and align their teams and stakeholders to a shared purpose and to drive lasting, inclusive, values-based change.",
   
   },
 ];

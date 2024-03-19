@@ -29,7 +29,7 @@ export function Hero() {
           <div className='hidden md:block'>
             <ul className='flex flex-row text-[14px] text-white  font-[400] px-4 gap-3'>
               {Navcontent.map((item, i: number) => (
-                <li className='active:bg-[white] active:text-black active:rounded-[20px] active:p-2'><Link href={item.link}>{item.name}</Link></li>
+                <li className='active:bg-[white] active:text-black active:rounded-[20px] active:p-2 text-[18px] font-[600]'><Link href={item.link}>{item.name}</Link></li>
               ))}
 
             </ul>
