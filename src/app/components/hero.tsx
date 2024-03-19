@@ -51,11 +51,11 @@ export function Hero() {
                 sequence={[
                   // Same substring at the start will only be typed out once, initially
                   'Capacity Connect Limited',
-                  1000, // wait 1s before replacing "Mice" with "Hamsters"
+                  5, // wait 1s before replacing "Mice" with "Hamsters"
 
                 ]}
                 wrapper="span"
-                speed={50}
+                speed={10}
                 style={{ fontSize: '24px', display: 'inline-block' }}
                 repeat={Infinity}
               />
