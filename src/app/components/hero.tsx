@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { Boxes } from "../../components/ui/background-boxes";
-import Logo from '../../../public/images/Frame 126.png'
+import Logo from '../../../public/images/log.png'
 import Image from "next/image";
 import { cn } from "../../utils/cn";
 import { TypewriterEffectSmooth } from "@/components/ui/typewriter-effect";

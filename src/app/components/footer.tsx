@@ -1,7 +1,7 @@
 'use client'
 
 import React, { useEffect, useState } from 'react'
-import Logo from '../../../public/images/Frame 126.png'
+import Logo from '../../../public/images/log.png'
 import Twitter from '../../../public/images/twitter.png'
 import Linkedln from '../../../public/images/linkedln.png'
 import Instagram from '../../../public/images/instagram.png'
@@ -18,7 +18,7 @@ function Footer() {
         <main className='bg-black px-10 mt-10'>
             <div className='flex flex-col md:flex-row justify-between items-center mb-4'>
                 <div>
-                    <Image src={Logo} alt='' />
+                    <Image src={Logo} alt='' className='w-20'/>
                     {/* <h1>Capacity Connect</h1> */}
                 </div>
                 <div className='flex flex-col md:flex-row items-center gap-2'>
