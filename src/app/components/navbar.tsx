@@ -19,7 +19,7 @@ function Header() {
     return (
         <main className=''>
             <div className="bg-[#0F162A] flex items-center w-full justify-between p-4">
-                <Image src={Logo} alt='' className=''/>
+                <Image src={Logo} alt='' className='w-20'/>
                 {/* <h1>Capacity Connect</h1> */}
                 <div className='hidden md:block'>
                     <ul className='flex flex-row text-[14px] text-white  font-[400] px-4 gap-3'>
