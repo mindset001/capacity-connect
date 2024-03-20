@@ -16,7 +16,7 @@ export const projects = [
   {
     title: "Program Management",
     description:
-      "We enable institutions and communities to implement development and humanitarian projects. We ensure timely delivery, within scope, budget, and quality standards while fostering learning and growth and achieving maximum impact. We support organizations in all phases of the project life cycle.",
+      "We enable institutions and communities to implement development and humanitarian projects. We ensure timely delivery, within scope, budget, and quality standards, while fostering learning and growth and achieving maximum impact. We support organizations in all phases of the project life cycle.",
   
   },
   {
@@ -28,7 +28,7 @@ export const projects = [
   {
     title: "Project Design and Strategy Development",
     description:
-      "We support donors and development partners with full suite of services to co-create responsive, locally relevant development projects and programs. We also support strategy development for populations and organizations in the development sector. ",
+      "We support donors and development partners with a full suite of services to co-create responsive, locally relevant development projects and programs. We also support strategy development for populations and organizations in the development and humanitarian sector. ",
     
   },
   {
@@ -52,7 +52,7 @@ export const projects = [
   {
     title: "Partnership/Grants Management",
     description:
-      "We connect organizations with likeminded stakeholders and foster synergistic relationships building on our deep global regional and national networks and connections and our multi-decade experience in fostering such partnerships and managing grants.",
+      "We connect organizations with likeminded stakeholders and foster synergistic relationships building on our deep global, regional, and national networks and connections and our multi-decade experience in fostering such partnerships and managing grants.",
 
   },
   // {
