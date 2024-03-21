@@ -55,12 +55,12 @@ export const projects = [
       "We connect organizations with likeminded stakeholders and foster synergistic relationships building on our deep global, regional, and national networks and connections and our multi-decade experience in fostering such partnerships and managing grants.",
 
   },
-  // {
-  //   title: "Values-based Leadership Development",
-  //   description:
-  //     "We help organization and leaders to enhance their capacity to scan and respond to challenges and opportunities, mobilize, and align their teams and stakeholders to a shared purpose and drive lasting, inclusive change.",
+  {
+    title: "Technical Assistance",
+    description:
+      "We provide targeted, collaborative, flexible, and result driven support to organizations to identify, select and deliver solutions to address a development need or problem. We enable organizations accure specialized services or skills they currently lack but need in order to meet a deliverable, operate more effectively, or strengthen their sustainability. Our support could be in person, remote or hybrid depending on the need of the organization and nature of the assignment.",
   
-  // },
+  },
   {
     title: "Values-based Leadership Development",
     description:
