@@ -46,7 +46,7 @@ export function Hero() {
           <h1 className={cn("md:text-4xl text-xl text-white relative z-20")}>
             {/* Capacity Connect Limited */}
 
-            <div className="block md:hidden">
+            <div className="block">
               <TypeAnimation
                 sequence={[
                   // Same substring at the start will only be typed out once, initially
@@ -55,15 +55,16 @@ export function Hero() {
 
                 ]}
                 wrapper="span"
-                speed={10}
-                style={{ fontSize: '24px', display: 'inline-block' }}
+                speed={20}
+                // style={{ fontSize: '24px', display: 'inline-block' }}
                 repeat={Infinity}
+                className="text-24px md:text-[60px] lg:text-[70px] font-[700]"
               />
             </div>
 
-            <div className="hidden md:block">
+            {/* <div className="hidden md:block">
               <TypewriterEffectSmooth words={words} className="text-[60px]" />
-            </div>
+            </div> */}
           </h1>
           <p className="text-center mt-2 text-neutral-300 relative z-20 text-[14px] md:text-[20px]">
             Enhancing Capacity and Fostering Connections for Sustainable Development
