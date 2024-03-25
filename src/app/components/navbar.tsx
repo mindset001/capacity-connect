@@ -35,8 +35,11 @@ function Header() {
                         <div className='w-[20px] h-[1px] bg-white my-2'></div>
                         <div className='w-[20px] h-[1px] bg-white'></div>
                     </div>}
+                    {show && <div className='' onClick={handleHide}>
+                            <h1 className='text-[34px] font-[800]'>X</h1>
+                        </div>}
 
-                    {show && <div className='px-4 py-2 w-[100%] bg-white text-black flex justify-between'>
+                    {show && <div className='px-4 py-2 w-[70%] h-[40vh] ml-[-70%] z-50 absolute bg-white text-black flex justify-between'>
 
                         <ul className='flex flex-col text-[16px] font-[400] font-[700] px-4 gap-3'>
                             {Navcontent.map((item, i: number) => (
@@ -45,9 +48,7 @@ function Header() {
 
                         </ul>
 
-                        <div className='' onClick={handleHide}>
-                            <h1 className='text-[34px] font-[800]'>X</h1>
-                        </div>
+                        
                     </div>}
                 </div>
             </div>

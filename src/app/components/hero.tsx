@@ -49,14 +49,11 @@ export function Hero() {
             <div className="block">
               <TypeAnimation
                 sequence={[
-                  // Same substring at the start will only be typed out once, initially
                   'Capacity Connect Limited',
-                  5, // wait 1s before replacing "Mice" with "Hamsters"
 
                 ]}
                 wrapper="span"
-                speed={20}
-                // style={{ fontSize: '24px', display: 'inline-block' }}
+                speed={50}
                 repeat={Infinity}
                 className="text-24px md:text-[60px] lg:text-[70px] font-[700]"
               />
